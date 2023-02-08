@@ -53,9 +53,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text("Calculator By Ojas"),
+        title: new Text("Calculator By Ojas\n102203108"),
+        backgroundColor: Color.fromARGB(255, 58, 27, 63),
       ), //AppBar
-      backgroundColor: Colors.white38,
+      backgroundColor: Color.fromARGB(255, 58, 27, 63),
       body: Column(
         children: <Widget>[
           Expanded(
@@ -103,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                           });
                         },
                         buttonText: buttons[index],
-                        color: Colors.blue[50],
+                        color: Colors.purple[50],
                         textColor: Colors.black,
                       );
                     }
@@ -112,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                     else if (index == 1) {
                       return MyButton(
                         buttonText: buttons[index],
-                        color: Colors.blue[50],
+                        color: Colors.purple[50],
                         textColor: Colors.black,
                       );
                     }
@@ -125,7 +126,7 @@ class _HomePageState extends State<HomePage> {
                           });
                         },
                         buttonText: buttons[index],
-                        color: Colors.blue[50],
+                        color: Colors.purple[50],
                         textColor: Colors.black,
                       );
                     }
@@ -139,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                           });
                         },
                         buttonText: buttons[index],
-                        color: Colors.blue[50],
+                        color: Colors.purple[50],
                         textColor: Colors.black,
                       );
                     }
@@ -152,7 +153,7 @@ class _HomePageState extends State<HomePage> {
                           });
                         },
                         buttonText: buttons[index],
-                        color: Colors.orange[700],
+                        color: Colors.deepPurple,
                         textColor: Colors.white,
                       );
                     }
@@ -167,7 +168,7 @@ class _HomePageState extends State<HomePage> {
                         },
                         buttonText: buttons[index],
                         color: isOperator(buttons[index])
-                            ? Colors.blueAccent
+                            ? Color.fromARGB(255, 58, 27, 63)
                             : Colors.white,
                         textColor: isOperator(buttons[index])
                             ? Colors.white
