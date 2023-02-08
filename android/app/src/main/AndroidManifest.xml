@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appdev">
    <application
-        android:label="appdev"
+        android:label="Ojas_102203108_APK"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
